@@ -1,0 +1,109 @@
+/* 이미지 스타일 */
+.image {
+    width: 150px; /* 너비 */
+    height: 150px; /* 높이 */
+}
+
+/* 카트 컨테이너 스타일 */
+.cart-container {
+    padding: 2.5rem; /* 안쪽 여백 */
+    display: flex; /* Flexbox를 이용한 정렬 */
+    flex-direction: column; /* 세로 방향으로 요소들을 배치 */
+    align-items: center; /* 가로 방향 가운데 정렬 */
+    justify-content: space-around; /* 세로 방향으로 요소들을 고르게 배치 */
+}
+
+/* 카트 컨테이너 내 제목 스타일 */
+.cart-container h1 {
+    padding: 2rem 0; /* 상단과 하단의 여백 */
+    margin-bottom: 2rem; /* 하단 여백 */
+}
+
+/* 카트 래퍼 스타일 */
+.cart-wrapper {
+    max-width: 700px; /* 최대 가로 너비 */
+    width: 100%; /* 너비 */
+    display: flex; /* Flexbox를 이용한 정렬 */
+    align-items: center; /* 가로 방향 가운데 정렬 */
+    justify-content: center; /* 세로 방향 가운데 정렬 */
+    flex-direction: column; /* 세로 방향으로 요소들을 배치 */
+    gap: 1rem; /* 요소 사이 간격 */
+}
+
+/* 카트 스타일 */
+.cart {
+    position: relative; /* 상대적 위치 */
+    display: flex; /* Flexbox를 이용한 정렬 */
+    align-items: center; /* 가로 방향 가운데 정렬 */
+    justify-content: space-around; /* 요소들을 가로로 고르게 배치 */
+    background: #fff; /* 배경색 */
+    border: 1px solid #ccc; /* 테두리 스타일 */
+    border-radius: 15px; /* 테두리 모서리를 둥글게 */
+    width: 100%; /* 너비 */
+    padding: 2rem; /* 안쪽 여백 */
+}
+
+/* 추가 및 삭제 버튼 스타일 */
+.add-remove-button button {
+    width: 30px; /* 버튼 너비 */
+    margin: 0 5px; /* 마진 */
+    cursor: pointer; /* 마우스 커서를 포인터로 변경 */
+}
+
+.add-remove-button input {
+    width: 50px; /* 입력 필드 너비 */
+    text-align: center; /* 가운데 정렬 */
+}
+
+/* 상세정보 스타일 */
+.details {
+    display: flex; /* Flexbox를 이용한 정렬 */
+    flex-direction: column; /* 세로 방향으로 요소들을 배치 */
+    gap: 1rem; /* 요소 사이 간격 */
+    align-items: center; /* 가로 방향 가운데 정렬 */
+    justify-content: center; /* 세로 방향 가운데 정렬 */
+}
+
+/* 버튼 컨테이너 스타일 */
+.buttons {
+    display: flex; /* Flexbox를 이용한 정렬 */
+    gap: 1.5rem; /* 요소 사이 간격 */
+    margin-top: 3rem; /* 상단 여백 */
+}
+
+/* 결제 버튼 스타일 */
+.pay-out-button {
+    padding: 0.5rem 1rem; /* 내부 여백 */
+    background: green; /* 배경색: 초록색 */
+    border-radius: 5px; /* 테두리를 둥글게 */
+    font-size: 20px; /* 폰트 크기 */
+    border: none; /* 테두리 없음 */
+    color: #fff; /* 글자색: 흰색 */
+}
+
+/* 뒤로 가기 버튼 스타일 */
+.back-button {
+    padding: 0.5rem 1rem; /* 내부 여백 */
+    background: black; /* 배경색: 검은색 */
+    border-radius: 5px; /* 테두리를 둥글게 */
+    font-size: 20px; /* 폰트 크기 */
+    border: none; /* 테두리 없음 */
+    color: #fff; /* 글자색: 흰색 */
+    cursor: pointer; /* 마우스 커서를 포인터로 변경 */
+}
+
+/* 체크박스 스타일 */
+.remove-checked-button {
+    padding: 0.5rem 1rem; /* 내부 여백 */
+    background: orange; /* 배경색: 주황색 */
+    border-radius: 5px; /* 테두리를 둥글게 */
+    font-size: 20px; /* 폰트 크기 */
+    border: none; /* 테두리 없음 */
+    color: #fff; /* 글자색: 흰색 */
+}
+
+input[type="checkbox"] {
+    position: absolute; /* 절대적 위치 */
+    left: 10px; /* 왼쪽 여백 */
+    margin-left: 20px; /* 왼쪽 여백 */
+}

@@ -1,0 +1,80 @@
+/* 주소를 담을 컨테이너 설정 */
+.address-container {
+    position: absolute; /* 절대 위치 */
+    left: 50%; /* 좌측 위치 기준을 중앙으로 조정 */
+    top: 50%; /* 상단 위치 기준을 중앙으로 조정 */
+    transform: translate(-50%, -50%); /* 수평 및 수직 가운데 정렬 */
+    width: 600px; /* 가로 크기 */
+    height: 500px; /* 세로 크기 */
+    background: #FFFFFF; /* 배경색 */
+    border-radius: 20px; /* 테두리 모서리를 둥글게 */
+    display: flex; /* 내부 요소들을 정렬하기 위해 Flexbox 사용 */
+    flex-direction: column; /* 세로 방향으로 요소들을 배치 */
+    align-items: center; /* 가로 방향 가운데 정렬 */
+    justify-content: center; /* 세로 방향 가운데 정렬 */
+}
+
+/* 주소 컨테이너 내 제목 스타일링 */
+.address-container h1 {
+    font-style: normal; /* 일반 폰트 스타일 */
+    font-weight: 700; /* 폰트 굵기 */
+    font-size: 32px; /* 폰트 크기 */
+    line-height: 47px; /* 줄 간격 */
+    color: black; /* 글자색 */
+    margin-bottom: 2rem; /* 하단 여백 */
+}
+
+/* 입력 폼 스타일링 */
+form {
+    display: flex; /* Flexbox를 이용한 정렬 */
+    flex-direction: column; /* 세로 방향으로 요소들을 배치 */
+    align-items: center; /* 가로 방향 가운데 정렬 */
+    justify-content: center; /* 세로 방향 가운데 정렬 */
+    gap: 1rem; /* 요소 사이 간격 */
+}
+
+/* 입력 라벨 스타일링 */
+label {
+    color: lightgrey; /* 라벨 텍스트 색상 */
+    display: flex; /* Flexbox를 이용한 정렬 */
+    flex-direction: column; /* 세로 방향으로 요소들을 배치 */
+    gap: 0.5rem; /* 요소 사이 간격 */
+    align-items: center; /* 가로 방향 가운데 정렬 */
+}
+
+/* 텍스트 입력 필드 스타일링 */
+.custom-text-input {
+    padding: 8px; /* 내부 여백 */
+    border: none; /* 테두리 없음 */
+    border-bottom: 1px solid #CFCFCF; /* 하단에 회색 실선 테두리 */
+    width: 466px; /* 가로 크기 */
+    height: 30px; /* 세로 크기 */
+    font-size: 16px; /* 폰트 크기 */
+}
+
+/* 버튼 컨테이너 스타일링 */
+.buttons {
+    display: flex; /* Flexbox를 이용한 정렬 */
+    gap: 1.5rem; /* 요소 사이 간격 */
+    margin-top: 3rem; /* 상단 여백 */
+}
+
+/* 취소 버튼과 주문 버튼 스타일링 */
+.cancel-button,
+.order-button {
+    padding: 0.5rem 1rem; /* 내부 여백 */
+    border-radius: 5px; /* 테두리를 둥글게 */
+    font-size: 20px; /* 폰트 크기 */
+    border: none; /* 테두리 없음 */
+    cursor: pointer; /* 마우스 커서를 포인터로 변경 */
+}
+
+.cancel-button {
+    background: red; /* 배경색: 빨간색 */
+    color: #fff; /* 글자색: 흰색 */
+}
+
+.order-button {
+    background: green; /* 배경색: 초록색 */
+    color: #fff; /* 글자색: 흰색 */
+}

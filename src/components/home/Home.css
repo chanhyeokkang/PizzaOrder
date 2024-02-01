@@ -1,0 +1,43 @@
+/* 요소들을 수평으로 정렬하고 주위 여백을 고르게 분배 */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* 피자 이미지의 최대 너비를 500px로 제한하고 가로 폭을 100%로 설정하며 위쪽 여백을 추가 */
+.pizza {
+    max-width: 500px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* 텍스트 컨텐츠를 세로 방향으로 정렬하고 간격을 1rem으로 지정하며 가운데 정렬 */
+.text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 텍스트 컨텐츠 내 제목의 글꼴 크기를 50px로 설정 */
+.text-content h1 {
+    font-size: 50px;
+}
+
+/* 텍스트 컨텐츠 내 단락의 글꼴 크기를 20px로 설정 */
+.text-content p {
+    font-size: 20px;
+}
+
+/* 버튼 스타일링 */
+.btn {
+    border: none; /* 테두리 없음 */
+    background: rgb(255, 0, 0); /* 배경색 설정 */
+    color: #fff; /* 글자색 설정 */
+    padding: 1rem 1.8rem; /* 내부 여백 설정 */
+    border-radius: 5px; /* 테두리 모서리를 둥글게 설정 */
+    font-size: 1rem; /* 글꼴 크기 설정 */
+    cursor: pointer; /* 마우스 커서를 포인터로 설정 */
+}
